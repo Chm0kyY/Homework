@@ -1,9 +1,9 @@
-x = 1234
+x = 1234 #пароль
 z = True
 while z:
     a = int(input())
-    if a == x:
-        print('верный пароль')
+    if a == x: #проверяем пароль
+        print('верный пароль') 
         z = False
     else:
         print('неверный пароль')
